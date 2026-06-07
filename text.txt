@@ -1,0 +1,48 @@
+Business Problem Statement (Final Version)
+
+We were building a digital AI representative for businesses. The core problem wasn't simply answering general questions like ChatGPT. Businesses wanted an AI system that could interact with customers using the business's own knowledge, policies, documents, databases, and customer records.
+
+For example, if a customer visits a bank's website, they don't just want generic information about fixed deposits or loans. They want answers specific to their own account, eligibility, transaction history, and relationship with the bank. Traditionally this would require speaking to an account manager, support representative, or branch employee.
+
+The challenge was to provide that same personalized experience instantly, at scale, and 24/7. The system needed to combine business-specific knowledge with user-specific context while maintaining accuracy and trust.
+
+We also found that many customers, especially in regulated industries such as banking, insurance, healthcare, and enterprise software, had strict privacy and compliance requirements. They were uncomfortable sending proprietary documents or customer information to external AI providers. Because of this, we needed to support both cloud-based deployments and fully private on-premise deployments where all models, data, and inference remained entirely inside the customer's infrastructure.
+
+The final product was a conversational video AI agent that looked and sounded like a real representative of the business and could provide personalized, context-aware responses with very low latency.
+
+
+
+
+Hi Sonam,
+
+Thank you for reaching out.
+
+I am interested in exploring this opportunity.
+
+Please find my details below:
+
+Experience: 13+ years
+
+Relevant Experience: 10
+
+* AI/ML: 10+ years
+* Computer Vision: 8+ years
+* Generative AI / Multimodal AI : 6+ years
+* LLMs / RAG Systems: 3+ years
+* AI Team Leadership: 6+ years
+
+Current CTC: 60 LPA
+
+Expected CTC: 70-90 LPA, Negotiable based on role and overall compensation structure
+
+Current Location: Bengaluru
+
+Notice Period: 30 days
+
+I have attached my updated resume for your review.
+
+I look forward to learning more about the role and next steps.
+
+Regards,
+Avijit Kundal
+
