@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List
 import numpy as np
@@ -60,18 +59,17 @@ class LatencyRequest(BaseModel):
 
 @app.post("/api/latency")
 def latency(req: LatencyRequest):
-    results = []
+    regions = {}
     for region in req.regions:
         rows = [r for r in DATA if r['region'] == region]
         if not rows:
             continue
         lats = [r['latency_ms'] for r in rows]
         ups = [r['uptime_pct'] for r in rows]
-        results.append({
-            "region": region,
+        regions[region] = {
             "avg_latency": round(sum(lats)/len(lats), 4),
             "p95_latency": round(float(np.percentile(lats, 95)), 4),
             "avg_uptime": round(sum(ups)/len(ups), 4),
             "breaches": sum(1 for l in lats if l > req.threshold_ms)
-        })
-    return {"results": results}
+        }
+    return {"regions": regions}
