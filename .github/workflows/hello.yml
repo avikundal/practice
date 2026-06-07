@@ -1,0 +1,8 @@
+name: Hello
+on: [workflow_dispatch, push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2006551@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
